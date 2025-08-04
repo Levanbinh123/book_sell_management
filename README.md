@@ -23,7 +23,7 @@ Dự án RESTful API dùng để quản lý hệ thống bán sách online, hỗ
    -spring.datasource.password=your_password
 3. **chạy dự án:**
    ```bash
-  -mvn spring-boot:run
+   -mvn spring-boot:run
 4. **truy cập swagger:**
    ```bash
    -http://localhost:8080/swagger-ui/index.html
