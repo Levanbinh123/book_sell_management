@@ -12,14 +12,11 @@ Dự án RESTful API dùng để quản lý hệ thống bán sách online, hỗ
 - **Lombok**
 - **Maven**
 - **EmailSender**
-
 ---
-
 ##  Cách chạy dự án
-
 1. **Clone dự án:**
    ```bash
-   git clone https://github.com/your-username/book-sell-management.git
+   git clone https://github.com/Levanbinh123/book_sell_management.git
    cd book-sell-management
 2. **cấu hinh database:**
 spring.datasource.url=jdbc:mysql://localhost:3306/your_db
