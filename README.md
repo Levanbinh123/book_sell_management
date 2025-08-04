@@ -12,7 +12,6 @@ Dự án RESTful API dùng để quản lý hệ thống bán sách online, hỗ
 - **EmailSender**
 ---
 ## Cấu trúc thư mục
-```bash
 ├── src/main/java
 │   └── com/example/social_media_PJ
 │       ├── controller/
