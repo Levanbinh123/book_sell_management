@@ -19,10 +19,13 @@ Dự án RESTful API dùng để quản lý hệ thống bán sách online, hỗ
    -git clone https://github.com/Levanbinh123/book_sell_management.git
    -cd book-sell-management
 2. **cấu hinh database:**
+   ```bash
 -spring.datasource.url=jdbc:mysql://localhost:3306/your_db
 -spring.datasource.username=root
 -spring.datasource.password=your_password
 3. **chạy dự án:**
+```bash
 -mvn spring-boot:run
 4. **truy cập swagger:**
+```bash
 -http://localhost:8080/swagger-ui/index.html
