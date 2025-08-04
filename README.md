@@ -21,7 +21,7 @@ Dự án RESTful API dùng để quản lý hệ thống bán sách online, hỗ
    -spring.datasource.url=jdbc:mysql://localhost:3306/your_db
    -spring.datasource.username=root
    -spring.datasource.password=your_password
-   3. **chạy dự án:**
+3. **chạy dự án:**
 ```bash
   -mvn spring-boot:run
 4. **truy cập swagger:**
