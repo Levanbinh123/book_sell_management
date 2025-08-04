@@ -11,6 +11,19 @@ Dự án RESTful API dùng để quản lý hệ thống bán sách online, hỗ
 - **Maven**
 - **EmailSender**
 ---
+## Cấu trúc thư mục
+```bash
+├── src/main/java
+│   └── com/example/social_media_PJ
+│       ├── controller/
+│       ├── model/
+│       ├── repository/
+│       └── service/
+├── src/main/resources
+│   └── application.properties
+├── PTTK/                  # Chứa sơ đồ phân tích thiết kế và tài liệu REST-API
+├── pom.xml                # File cấu hình Maven
+└── README.md              # File này
 ##  Cách chạy dự án
 1. **Clone dự án:**
    ```bash
