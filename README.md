@@ -12,7 +12,7 @@ Dự án RESTful API dùng để quản lý hệ thống bán sách online, hỗ
 - **EmailSender**
 ---
 ## cấu trúc thư mục:
-   ```bash
+```bash
 ├── src/main/java
 │   └── com/example/social_media_PJ
 │       ├── controller/
@@ -25,18 +25,15 @@ Dự án RESTful API dùng để quản lý hệ thống bán sách online, hỗ
 ├── pom.xml                # File cấu hình Maven
 └── README.md              # File này
 ## chạy dự án:
-1. **Clone dự án:**
-   ```bash
-   -git clone https://github.com/Levanbinh123/book_sell_management.git
-   -cd book-sell-management
-2. **cấu hinh database:**
-   ```bash
-   -spring.datasource.url=jdbc:mysql://localhost:3306/your_db
-   -spring.datasource.username=root
-   -spring.datasource.password=your_password
-3. **chạy dự án:**
-   ```bash
-   -mvn spring-boot:run
-4. **truy cập swagger:**
-   ```bash
-   -http://localhost:8080/swagger-ui/index.html
+## Clone dự án:
+bash
+git clone https://github.com/Levanbinh123/book_sell_management.git
+cd book-sell-management
+## cấu hinh database:
+spring.datasource.url=jdbc:mysql://localhost:3306/your_db
+spring.datasource.username=root
+spring.datasource.password=your_password
+## chạy dự án:
+mvn spring-boot:run
+##truy cập swagger:
+http://localhost:8080/swagger-ui/index.html
